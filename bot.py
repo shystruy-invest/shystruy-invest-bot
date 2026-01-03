@@ -2,7 +2,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 
 TOKEN = "8553202091:AAH8_4sS5HaeUjMsC6djI-by1zMhExaCoeI"
-CHANNEL_ID = "@shystruy_invest"
+CHANNEL_ID = "@shystruy_invest_bot"
 
 def start(update, context):
     update.message.reply_text("Бот SHYSTRUY INVEST працює ✅")
